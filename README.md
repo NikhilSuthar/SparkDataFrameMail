@@ -1,5 +1,5 @@
-# SparkExample
-How to send Spark DataFrame as a Report in Mail
+# SparkDataFrameMail
+Example of How to send Spark DataFrame as a Report in Mail
 
 **To send DataFrame as a report in Mail**
 
