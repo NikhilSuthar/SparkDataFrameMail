@@ -40,8 +40,9 @@ Steps:
 
 <h2>How to Use Code:</h2>
 
-* Download Jar from here 
-* Run below command with parameter 
+* Download and Clone repository.
+* Open it in IDE and compile using command `sbt clean assembly`
+* Run below command with parameter and Jar Path
 
 `spark-submit  --class com.spark.example.Main /.../Spark_DataFrame_Mail.jar "/../input.csv" "/../application.conf"`
 
