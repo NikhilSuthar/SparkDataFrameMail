@@ -1,18 +1,18 @@
 # SparkExample
-Various Spark Examples
+How to send Spark DataFrame as a Report in Mail
 
 **To send DataFrame as a report in Mail**
 
 We can send a DataFrame as a report in Mail. To sending Mail using Spark, you will required [**Scala-Spark-Mail**](https://github.com/NikhilSuthar/Scala-Spark-Mail) library.
 
 Steps:
-* 1. Download Spark-Scala-Mail Jar from [here](https://github.com/NikhilSuthar/Scala-Spark-Mail/tree/master/Jar).
-* 2. Add external Jar dependecies in Module. For more details check [Readme](https://github.com/NikhilSuthar/Scala-Spark-Mail)
-* 3. Below is sample code exmaple for sending DataFrame in the mail,just for reference.
+*  Download Spark-Scala-Mail Jar from [here](https://github.com/NikhilSuthar/Scala-Spark-Mail/tree/master/Jar).
+*  Add external Jar dependecies in Module. For more details check [Readme](https://github.com/NikhilSuthar/Scala-Spark-Mail)
+*  Below is sample code exmaple for sending DataFrame in the mail,just for reference.
 
       https://github.com/NikhilSuthar/SparkExample/blob/master/src/main/scala/com/spark/util/SparkMail.scala
       
-  <h1>Example of Spark DataFrame Mail</h1> 
+  <h3>Example of Spark DataFrame Mail</h3> 
   
     **Input Dataframe**
            
@@ -35,10 +35,17 @@ Steps:
      **Output in Mail**
      
      
-     
-       ![Dataframe Report](https://github.com/NikhilSuthar/SparkExample/blob/master/src/main/Test/output/mail.jpeg)
+   ![Dataframe Report](https://github.com/NikhilSuthar/SparkExample/blob/master/src/main/Test/output/mail.jpeg)
  
 
 
-**Transpose of DataFrame**
+<h2>How to Use Code:</h2>
 
+* Download Jar from here 
+* Run below command with parameter 
+
+`spark-submit  --class com.spark.example.Main /.../Spark_DataFrame_Mail.jar "/../input.csv" "/../application.conf"`
+
+<h4>Sample Data</h4>
+* [Input File](https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/Test/input/input.csv)
+* [application.con](https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/resources/application.conf)

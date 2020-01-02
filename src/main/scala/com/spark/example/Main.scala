@@ -9,17 +9,12 @@ object Main extends Logging {
     var Path:String=""
     var ConfPath:String =""
     if (args.length == 0) {
-      log.error("""******************Pass Help ("help") to know about Parameters****************""")
-      Path = "src/main/Test/input/"
-      ConfPath = "src/main/resources/application.conf"
-
-    } else if (args(0).toLowerCase.trim == "help") {
-      log.info("***************You can pass Two Parameters********************")
+      log.info("***************Parameters Missing********************")
+      log.info("***************Pass below parameter********************")
       log.info("Path of CSV File delimited by Comma")
       log.info("Path of application Conf file")
     } else if (args.length == 1){
-      Path = args(0)
-      ConfPath = "src/main/resources/application.conf"
+      log.error("***************Please pass conf file path********************")
     } else {
       Path = args(0)
       ConfPath = args(1)
