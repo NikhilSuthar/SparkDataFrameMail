@@ -40,7 +40,7 @@ Steps:
 
 <h2>How to Use Code:</h2>
 
-* Download and Clone repository.
+* Clone or Download repository.
 * Open it in IDE and compile using command `sbt clean assembly`
 * Run below command with parameter and Jar Path
 
