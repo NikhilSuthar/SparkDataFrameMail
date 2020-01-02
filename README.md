@@ -10,7 +10,7 @@ Steps:
 *  Add external Jar dependecies in Module. For more details check [Readme](https://github.com/NikhilSuthar/Scala-Spark-Mail)
 *  Below is sample code exmaple for sending DataFrame in the mail,just for reference.
 
-      https://github.com/NikhilSuthar/SparkExample/blob/master/src/main/scala/com/spark/util/SparkMail.scala
+     https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/scala/com/spark/util/SparkMail.scala
       
   <h3>Example of Spark DataFrame Mail</h3> 
   
