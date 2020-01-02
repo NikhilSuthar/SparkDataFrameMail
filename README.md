@@ -46,5 +46,7 @@ Steps:
 `spark-submit  --class com.spark.example.Main /.../Spark_DataFrame_Mail.jar "/../input.csv" "/../application.conf"`
 
 <h4>Sample Data</h4>
+
  [Input File](https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/Test/input/input.csv)
- [application.con](https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/resources/application.conf)
+ 
+ [application.conf](https://github.com/NikhilSuthar/SparkDataFrameMail/blob/master/src/main/resources/application.conf)
